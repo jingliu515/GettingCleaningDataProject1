@@ -18,9 +18,9 @@ sum(features$chooseVar) ## number of variables that will be kept
 actLabels<-read.table(unzip(file,"UCI HAR Dataset/activity_labels.txt"))
 
 rowsRead<--1
-## I use this variable to control how many rows to be read
-## a small number is assigned first to the purpose of code testing
-## eventually it is given a value of -1 to read in all data
+## I use this variable to control how many rows to be read in.
+## First a small number is assigned for the purpose of code testing.
+## Eventually it is given a value of -1 to read in all data.
 
 ## read test data
 testData<-read.table(unzip(file,"UCI HAR Dataset/test/X_test.txt"), nrows=rowsRead)
