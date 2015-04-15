@@ -15,9 +15,9 @@ More information can be found in the UCI webpage. Here is an excerpt from the UC
     - Its activity label. 
     - An identifier of the subject who carried out the experiment.
     
-After downloading the .zip file, the relevant files are read in:
+All analysis is done with RStudio 3.1.2 on Windows 7.
 
-First, the features.txt file (variable names) and activity_labels.txt files are read in. A chooseVar variable is created in the features file as a logical variable indicating which measurements to select afterwards.
+First, the .zip file containing all the data is downloaded and relevent files are read in. The features.txt file (variable names) and activity_labels.txt files are read in first. A chooseVar variable is created in the features file as a logical variable indicating which measurements to select afterwards.
 
 Second, test data is read in.Test data variable names are renamed accordinng to the features file.Also, only mean and standard deviation measurements (a total of 79) are kept using the chooseVar variable. The other measurements are dropped. 
 
