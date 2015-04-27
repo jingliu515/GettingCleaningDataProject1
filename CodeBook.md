@@ -33,6 +33,6 @@ In the end, summary functions are used to calculate the average of each variable
 
 After data cleaning, the final data summaryData.txt given by the run_analysis.R code only has the measurements on the mean and standard deviation for each measurement (79 variables) plus two additional variables, coding the subject ID and activity type, respectively. In addition, the average of each variable for each subject/activity combination is calculated and presented.
 
-* __subject__: an identification number for the volunteer subject in the experiment.
+* __subject__: an identification number for the volunteer subject in the experiment.It has values from 1 to 30.
 * **activity**: type of activity the subject is performing. It has 6 values: walking, walking_downstairs, walking_upstairs, laying, sitting, and standing. 
 * **the rest 79 variables**: average value of measurement for each subject/activity combination.
